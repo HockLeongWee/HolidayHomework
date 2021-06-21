@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HolidayHomework</string>
+
+    <string-array name="spinnerMonths">
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+    </string-array>
 </resources>
