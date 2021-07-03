@@ -153,7 +153,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
@@ -189,6 +189,13 @@
                     android:text="DELETE"
                     app:backgroundTint="#172240" />
             </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvItems"
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp" />
         </LinearLayout>
     </ScrollView>
 
